@@ -6,11 +6,19 @@
 
 \# Outils utilisés:
 
-&nbsp;	- Apache/airflow
+ 	- Apache/airflow
 
-&nbsp;	- Docker
+ 	- Docker
 
-&nbsp;	- Dhis2
+ 	- Dhis2
 
 
+
+Un Dockerfile a été créé pour inclure pip install requirements.txt
+
+Dans le docker-compose.yaml on a commenté l'image et decommenté le build .
+
+
+
+Pour versionner les fichiers logs, config, .env et venv ont été ignoré grâce au fichier .gitignore
 
